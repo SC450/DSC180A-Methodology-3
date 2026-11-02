@@ -1,3 +1,13 @@
+commit 9e26282f9008e5ebe9410ac512f8eca4bebf535b
+Author: r4tangUCSD <166660878+r4tangUCSD@users.noreply.github.com>
+Date:   Mon Nov 2 12:09:38 2026 -0800
+
+    UTF-8 Encoding
+
+diff --git a/log.txt b/log.txt
+index 765fc72..ae08011 100644
+Binary files a/log.txt and b/log.txt differ
+
 commit 0510e78709963b87cafd3bf80b54fc8203325a0d
 Author: r4tangUCSD <166660878+r4tangUCSD@users.noreply.github.com>
 Date:   Mon Nov 2 12:05:59 2026 -0800
@@ -25,6 +35,68 @@ Author: SC450 <shc068@ucsd.edu>
 Date:   Mon Nov 2 11:46:03 2026 -0800
 
     Resolve README.md and lec02.ipynb merge conflict
+
+diff --cc README.md
+index 538acb0,d4f8725..7a0bf0e
+--- a/README.md
++++ b/README.md
+@@@ -1,3 -1,2 +1,2 @@@
+  # DSC180A-Methodology-3
+- Shawn Cheng
+- shc068@ucsd.edu
+ -Ryan Tang
+++Shawn Cheng and Ryan Tang
+diff --cc lec02.ipynb
+index 9ab8f53,7b712f5..a43b841
+--- a/lec02.ipynb
++++ b/lec02.ipynb
+@@@ -390,20 -445,40 +445,42 @@@
+     "cell_type": "code",
+     "execution_count": null,
+     "metadata": {},
+-    "outputs": [],
++    "outputs": [
++     {
++      "data": {
++       "text/plain": [
++        "40"
++       ]
++      },
++      "execution_count": 21,
++      "metadata": {},
++      "output_type": "execute_result"
++     }
++    ],
+     "source": [
+ +    "# Exponentiation first!\n",
+-     "5 * 2 ** 3"
++     "3 * 4 ** 2"
+     ]
+    },
+    {
+     "cell_type": "code",
+     "execution_count": null,
+     "metadata": {},
+-    "outputs": [],
++    "outputs": [
++     {
++      "data": {
++       "text/plain": [
++        "1000"
++       ]
++      },
++      "execution_count": 22,
++      "metadata": {},
++      "output_type": "execute_result"
++     }
++    ],
+     "source": [
+ +    "# Multiplication first!\n",
+-     "(5 * 2) ** 3"
++     "(3 * 4) ** 2"
+     ]
+    },
+    {
 
 commit 1c8e32705ead889e2d1dc87e416ee89d87099e7d
 Author: SC450 <shc068@ucsd.edu>
